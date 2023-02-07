@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-width: 100vh;
+}
+
+.App h1 {
+  color: rgb(117, 113, 203);
 }
 
 .App-logo {
@@ -35,4 +41,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Custom CSS */
+
+.form__input--search {
+  border: #282c34 1px solid;
+}
+
+.form__input--search:active {
+  color: aliceblue;
+  background-color: black;
 }
